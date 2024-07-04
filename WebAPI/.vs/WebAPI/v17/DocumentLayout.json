@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\services\\repos\\eventpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\repos\\eventpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\controllers\\eventpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\eventpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\services\\repos\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\repos\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\services\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\interface\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\services\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\services\\repos\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\repos\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\models\\eventpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\eventpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\services\\interface\\ieventpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\interface\\ieventpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\models\\dtos\\eventpostupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\dtos\\eventpostupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\models\\dtos\\eventpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\dtos\\eventpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\models\\dtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\dtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|c:\\users\\aleksandar\\desktop\\youtubekraden\\webapi\\webapi\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7FE9CB6-64F5-4CB0-85A6-0F5E351DF508}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T16:01:30.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Interface\\IFileService.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\Interface\\IFileService.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Interface\\IFileService.cs",
+              "RelativeToolTip": "WebAPI\\Services\\Interface\\IFileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:56:25.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Repos\\FileService.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\Repos\\FileService.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Repos\\FileService.cs",
+              "RelativeToolTip": "WebAPI\\Services\\Repos\\FileService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAB0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:56:19.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:40:49.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Repos\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\Repos\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Repos\\CategoryRepository.cs",
+              "RelativeToolTip": "WebAPI\\Services\\Repos\\CategoryRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:28:47.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Interface\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Interface\\ICategoryRepository.cs",
+              "RelativeToolTip": "WebAPI\\Services\\Interface\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T17:28:34.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventPostController.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Controllers\\EventPostController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EventPostController.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Controllers\\EventPostController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\EventPostController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAcwAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:29:28.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebAPI\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:03:44.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Repos\\EventPostRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\Repos\\EventPostRepository.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Repos\\EventPostRepository.cs",
+              "RelativeToolTip": "WebAPI\\Services\\Repos\\EventPostRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwCgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:56:50.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEventPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Interface\\IEventPostRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\Interface\\IEventPostRepository.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Services\\Interface\\IEventPostRepository.cs",
+              "RelativeToolTip": "WebAPI\\Services\\Interface\\IEventPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:56:34.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "RelativeToolTip": "WebAPI\\Models\\DTOs\\CategoryUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:53:42.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "WebAPI\\Models\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:52:09.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventPostUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\EventPostUpdateDTO.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\DTOs\\EventPostUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\EventPostUpdateDTO.cs",
+              "RelativeToolTip": "WebAPI\\Models\\DTOs\\EventPostUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:47:54.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\EventPostDTO.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\DTOs\\EventPostDTO.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\DTOs\\EventPostDTO.cs",
+              "RelativeToolTip": "WebAPI\\Models\\DTOs\\EventPostDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:43:38.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:36:33.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EventPost.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\EventPost.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\EventPost.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\EventPost.cs",
+              "RelativeToolTip": "WebAPI\\Models\\EventPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:03:26.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\Models\\Category.cs",
+              "RelativeToolTip": "WebAPI\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:02:02.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
