@@ -22,12 +22,10 @@ namespace WebAPI.Services.Repos
                 throw new ArgumentNullException(nameof(imageFile));
             }
 
-            var uploadPath = _configuration.GetValue<string>("UploadSettings:UploadPath");
-            var path = Path.Combine(_environment.ContentRootPath, uploadPath);
-
-            if (!Directory.Exists(path))
+            var uploadPath = Path.Combine(_environment.WebRootPath, "Uploads"); // WebRootPath points to wwwroot
+            if (!Directory.Exists(uploadPath))
             {
-                Directory.CreateDirectory(path);
+                Directory.CreateDirectory(uploadPath);
             }
 
             var ext = Path.GetExtension(imageFile.FileName);
@@ -37,9 +35,13 @@ namespace WebAPI.Services.Repos
             }
 
             var fileName = $"{Guid.NewGuid()}{ext}";
-            var fileNameWithPath = Path.Combine(path, fileName);
-            using var stream = new FileStream(fileNameWithPath, FileMode.Create);
-            await imageFile.CopyToAsync(stream);
+            var filePath = Path.Combine(uploadPath, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await imageFile.CopyToAsync(stream);
+            }
+
             return fileName;
         }
 
@@ -59,7 +61,6 @@ namespace WebAPI.Services.Repos
             }
 
             File.Delete(path);
-
         }
 
     }

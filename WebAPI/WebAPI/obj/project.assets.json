@@ -5011,11 +5011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Aleksandar\\Desktop\\EventApp\\WebAPI\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\Aleksandar\\Desktop\\EventApp\\WebAPI\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Aleksandar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Aleksandar\\Desktop\\EventApp\\WebAPI\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aleksandar\\AppData\\Roaming\\NuGet\\NuGet.Config",

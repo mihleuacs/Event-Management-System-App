@@ -11,7 +11,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    
     public class EventPostController : ControllerBase
     {
         private readonly IFileService _fileService;
@@ -46,25 +46,34 @@ namespace WebAPI.Controllers
             return Ok(epost);
         }
 
+
+
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> CreateEventPost([FromForm] EventPostDTO eventToAdd)
         {
             try
             {
+                // Validate image file size
                 if (eventToAdd.ImageFile?.Length > 1 * 1024 * 1024)
                 {
                     return BadRequest(new { message = "File size should not exceed 1 MB" });
                 }
 
+                // Define allowed file extensions
                 string[] allowedFileExtensions = { ".jpg", ".jpeg", ".png" };
+
+                // Save uploaded image using FileService
                 string createdImageName = await _fileService.SaveFileAsync(eventToAdd.ImageFile, allowedFileExtensions);
 
+                // Find category by name (assuming it's implemented in _categoryRepository)
                 var category = await _categoryRepository.FindCategoryByNameAsync(eventToAdd.CategoryName);
                 if (category == null)
                 {
                     return NotFound(new { message = $"Category with name: {eventToAdd.CategoryName} not found" });
                 }
 
+                // Create EventPost object
                 var eventPost = new EventPost
                 {
                     EventName = eventToAdd.EventName,
@@ -75,7 +84,10 @@ namespace WebAPI.Controllers
                     ProductImage = createdImageName
                 };
 
+                // Add EventPost to repository
                 var createdEventPost = await _eventPost.AddEventPostAsync(eventPost);
+
+                // Return created EventPost with HTTP 201 Created status
                 return CreatedAtAction(nameof(GetEventPost), new { id = createdEventPost.Id }, createdEventPost);
             }
             catch (Exception ex)
@@ -87,8 +99,9 @@ namespace WebAPI.Controllers
 
 
 
-    
+
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> UpdateEventPost(int id, [FromForm] EventPostUpdateDTO eventToUpdate)
         {
             try
@@ -138,6 +151,7 @@ namespace WebAPI.Controllers
             }
         }
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task<IActionResult> DeleteEventPost(int id)
         {
             try
@@ -149,6 +163,8 @@ namespace WebAPI.Controllers
                 }
 
                 await _eventPost.DeleteEventPostAsync(existingEventPost);
+
+                // Delete associated image file
                 _fileService.DeleteFile(existingEventPost.ProductImage);
 
                 return NoContent();

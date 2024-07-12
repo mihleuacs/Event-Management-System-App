@@ -17,14 +17,16 @@ namespace WebAPI.Controllers
             _logger = logger;
         }
 
+      
+
+
         [HttpPost("/register")]
         public async Task<IActionResult> Register(SignupModel model)
         {
             try
             {
                 (int status, string message) = await _authService.Register(model, UserRoles.User);
-                // For Admin
-                // (int status, string message) = await _authService.Register(model, UserRoles.Admin);
+                
                 if (status == 1)
                 {
                     return Ok(new { model.Email, model.Name });
@@ -46,10 +48,10 @@ namespace WebAPI.Controllers
         {
             try
             {
-                (int status, string message) = await _authService.Login(model);
+                (int status, string message , string username) = await _authService.Login(model);
                 if (status == 1)
                 {
-                    return Ok(new LoginResponse(AccessToken: message));
+                    return Ok(new LoginResponse(AccessToken: message , Username: username));
                 }
                 else
                 {

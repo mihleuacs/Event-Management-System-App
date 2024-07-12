@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6zYqa6/KCTpmd/htxgiMwQtqAX8wpFAUl9t6g0FNMtg/OmV+sWFiP31gJ1YxplYWbvhGXjT3z1ztVMSUS2aJSw==",
+  "dgSpecHash": "Q0EU814UhfVXD6tstyZoiQQJkC9ALZUbswPJAKINQSXXeYD531PPDiSTHiDb+EhT94sr5gTY8+nYFW7vUNaImQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aleksandar\\Desktop\\YoutubeKraden\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Aleksandar\\Desktop\\EventApp\\WebAPI\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aleksandar\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Aleksandar\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -52,19 +52,19 @@ namespace WebAPI.Services.Repos
             return (1, "User created successfully!");
         }
 
-        public async Task<(int, string)> Login(LoginModel model)
+        public async Task<(int, string, string)> Login(LoginModel model)
         {
             // find user by email
             ApplicationUser? user = await _userManager.FindByEmailAsync(model.Username);
             if (user == null)
             {
-                return (0, "Invalid Email");
+                return (0, "Invalid Email", null);
             }
             // match password
             bool isPasswordValid = await _userManager.CheckPasswordAsync(user, model.Password);
             if (!isPasswordValid)
             {
-                return (0, "Invalid Password");
+                return (0, "Invalid Password", null);
             }
 
             // get user's roles
@@ -81,7 +81,7 @@ namespace WebAPI.Services.Repos
             }
             string token = GenerateToken(claims);
             // generate token
-            return (1, token);
+            return (1, token, user.UserName);
         }
 
         private string GenerateToken(IEnumerable<Claim> claims)
